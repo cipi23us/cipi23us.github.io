@@ -4,22 +4,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cool Real Estate</title>
-<meta name="description" content="Professional real estate services. Helping clients buy and sell homes with confidence.">
+<title>Cool Real Estate - Dan Pretu</title>
+<meta name="description" content="Helping you buy & sell homes in your city with confidence.">
 <meta name="keywords" content="real estate agent, homes for sale, buy house, sell house, realtor">
-<meta name="author" content="Dan Pretu">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <h1>Cool Real Estate</h1>
-  <p>Dan Pretu – Licensed Real Estate Broker<br>Brokered by ABC Realty</p>
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#listings">Listings</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
-<section class="hero">
-  <h2>Your Trusted Real Estate Partner</h2>
-  <p>Helping you find your dream home or sell with confidence.</p>
+<section id="hero">
+  <div class="hero-content">
+    <h1>Find Your Dream Home with Cool Real Estate</h1>
+    <p>Dan Pretu – Licensed Real Estate Broker | Brokered by ABC Realty</p>
+    <a href="#contact" class="btn">Contact Me</a>
+    <a href="#listings" class="btn">View Listings</a>
+  </div>
 </section>
-<section class="contact">
+<section id="about">
+  <h2>About Dan Pretu</h2>
+  <div class="about-content">
+    <img src="images/agent.jpg" alt="Dan Pretu">
+    <p>With years of experience in the local market, I help clients buy and sell homes confidently. My goal is to provide exceptional service and results.</p>
+  </div>
+</section>
+<section id="listings">
+  <h2>Featured Listings</h2>
+  <div class="listings-grid">
+    <div class="listing-card">
+      <img src="images/listing1.jpg" alt="Listing 1">
+      <h3>123 Main Street</h3>
+      <p>$450,000 • 3 Beds • 2 Baths</p>
+      <a href="#contact" class="btn-small">Inquire</a>
+    </div>
+    <div class="listing-card">
+      <img src="images/listing2.jpg" alt="Listing 2">
+      <h3>456 Oak Avenue</h3>
+      <p>$575,000 • 4 Beds • 3 Baths</p>
+      <a href="#contact" class="btn-small">Inquire</a>
+    </div>
+  </div>
+</section>
+<section id="services">
+  <h2>Services</h2>
+  <ul class="services-list">
+    <li>Buyers Representation</li>
+    <li>Sellers Representation</li>
+    <li>Market Analysis & Pricing</li>
+    <li>Home Staging & Marketing</li>
+  </ul>
+</section>
+<section id="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial-card">
+    <p>"Dan made selling our home simple and stress-free. Highly recommend!"</p>
+    <span>- Client Name</span>
+  </div>
+</section>
+<section id="contact">
   <h2>Contact Me</h2>
   <form action="https://formspree.io/f/yourID" method="POST">
     <input type="text" name="name" placeholder="Your Name" required>
@@ -29,7 +79,8 @@
   </form>
 </section>
 <footer>
-  <p>© 2026 Cool Real Estate. Brokered by ABC Realty.</p>
+  <p>© 2026 Cool Real Estate | Brokered by ABC Realty | Phone: 123-456-7890 | Email: info@coolrealestate.com</p>
 </footer>
+<script src="scripts.js"></script>
 </body>
 </html>
